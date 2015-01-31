@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5100
+
+This *cursorword* plugin underlines the word under the cursor. That's it.
+
+While we are coding, we always pay attention to the variable under the cursor.
+Where did we define the variable? In which statement do we use the variable?
+Searching the variable using |star| or |#| is a simple solution to highlight all
+the places the variable is used. However, it costs too much time to highlight
+a word, move around to check the places and clear the highlight.  This plugin
+|cursorword| provides you the modest underlines for the variables under the
+cursor to let you know all the places the variable is used at a glance without
+stopping coding.
+
+Image: https://raw.githubusercontent.com/wiki/itchyny/vim-cursorword/image/image.gif
+GitHub repository: https://github.com/itchyny/vim-cursorword
+Bug Tracker: https://github.com/itchyny/vim-cursorword/issues
